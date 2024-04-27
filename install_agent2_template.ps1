@@ -12,7 +12,7 @@ $FQDN=(Get-WmiObject win32_computersystem).DNSHostName+"."+(Get-WmiObject win32_
 
 
 #User-configurable variables
-$ZabbixInstallationMSI = "\\group-rbs-msk.local\nb\Новая База\ОБЩИЕ\Файловый обмен\ВМ Групп\zabbix_agent2-6.4.14-windows-amd64-openssl.msi"
+$ZabbixInstallationMSI = "\\group-rbs-msk.local\support\scripts\packages\zabbix_agent2-6.4.14-windows-amd64-openssl.msi"
 $ZabbixAgentVersion = "6.4.14"
 $ZabbixServerIP = "monitoring.groupvm.ru"
 #$ZabbixInstallationFolder = "\\$FQDN\c$\Program Files\Zabbix Agent 2\"
